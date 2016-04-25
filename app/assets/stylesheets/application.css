@@ -1,0 +1,60 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ 
+   
+ 
+    body{
+        padding:20px;
+    }
+    .one{
+        color:#ADD8E6;
+        
+    }
+    
+    .two{
+         color:#ADD8E6;
+    }
+    
+    .three{
+         color:#ADD8E6;
+    }
+    .four{
+        color:#ADD8E6;
+    }
+    
+   .border1{
+        border-style: solid;
+        border-width: 5px;
+        border-radius:13px;
+        box-shadow:2px 2px 2px 4px blue;
+     }
+   
+   .border2 {border-style: solid;
+        border-width: 5px;
+        border-radius:13px;
+        box-shadow:2px 2px 2px 4px #ADD8E6;
+        border-color:#ADD8E6;
+   }
+   
+   body{
+       background-image:url("https://wallpaperscraft.com/image/stains_light_color_background_47319_1920x1200.jpg");
+   }
+   
+  
+      
+  
+   
+  
